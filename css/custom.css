@@ -1,0 +1,30 @@
+.blockone img{
+  width: 30%;
+  height: auto;
+}
+
+.blocktwo{
+  background-color: #9CA5B2;
+  color: #FFFFFF;
+}
+
+/* .blocktwo a{
+  color: #FFFFFF;
+} */
+
+.post h3 a{
+  color: #FFFFFF;
+}
+
+.blockthree{
+  background-image: url("../img/topography.png");
+  background-attachment: fixed;
+}
+
+/* .footer__block{
+  background-color: #73877B;
+} */
+
+.box{
+  background-color: transparent;
+}
