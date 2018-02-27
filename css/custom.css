@@ -1,3 +1,13 @@
+body{
+  padding-top: 70px;
+}
+
+/* @media screen and (max-width:768px) {
+  body{
+    padding-top: 0px;
+  }
+} */
+
 .blockone img{
   width: 30%;
   height: auto;
@@ -47,4 +57,8 @@
 
 .footer__block p,.footer__block i,.footer__block p a,.footer__block h4{
   color: #FFFFFF;
+}
+
+.blink::after {
+  /*https://codepen.io/alandunning/pen/RWRrEW*/
 }
