@@ -62,3 +62,7 @@ body{
 .blink::after {
   /*https://codepen.io/alandunning/pen/RWRrEW*/
 }
+
+.footer__block .heading:after {
+  background-color: #2b90d9;
+}
