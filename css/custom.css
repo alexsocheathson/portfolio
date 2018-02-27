@@ -3,11 +3,19 @@
   height: auto;
 }
 
+
 .blocktwo{
   background-color: #9CA5B2;
   color: #FFFFFF;
 }
 
+.blocktwo h1{
+  color: #FFFFFF;
+}
+
+.blocktwo p{
+  color: #FFFFFF;
+}
 /* .blocktwo a{
   color: #FFFFFF;
 } */
@@ -27,4 +35,16 @@
 
 .box{
   background-color: transparent;
+}
+
+.lead{
+  color: #999999;
+}
+
+.footer__block{
+  background-color: #9CA5B2;
+}
+
+.footer__block p,.footer__block i,.footer__block p a,.footer__block h4{
+  color: #FFFFFF;
 }
