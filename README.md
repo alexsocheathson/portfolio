@@ -1,6 +1,9 @@
-# portfolio
+# Portfolio
 
-Reminders before making it public:
-delete all unused media 
-cite sources included such as icons
-check through code to see that remnants are gone
+Hello and welcome to the personal website of Alex Son.
+
+# Acknowledgements
+Bootsrap
+Font Awesome
+Pixeden Icon Font Pack
+Google Fonts - Robeto
