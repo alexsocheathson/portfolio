@@ -899,7 +899,7 @@ FOOTER AND COPYRIGHT
 */
 .footer__block {
   background: #cccccc;
-  padding: 80px 0;
+  padding: 30px 0;
 }
 .footer__block .heading:after {
   background-color: #333333;
@@ -1883,4 +1883,73 @@ a.list-group-item.active > .badge,
 }
 .nav-pills > li > a > .badge {
   margin-left: 3px;
+}
+
+body{
+  padding-top: 70px;
+}
+
+/* @media screen and (max-width:768px) {
+  body{
+    padding-top: 0px;
+  }
+} */
+
+.blockone img{
+  width: 30%;
+  height: auto;
+}
+
+
+.blocktwo{
+  background-color: #9CA5B2;
+  color: #FFFFFF;
+}
+
+.blocktwo h1{
+  color: #FFFFFF;
+}
+
+.blocktwo p{
+  color: #FFFFFF;
+}
+/* .blocktwo a{
+  color: #FFFFFF;
+} */
+
+.post h3 a{
+  color: #FFFFFF;
+}
+
+.blockthree{
+  background-image: url("../img/topography.png");
+  background-attachment: fixed;
+}
+
+/* .footer__block{
+  background-color: #73877B;
+} */
+
+.box{
+  background-color: transparent;
+}
+
+.lead{
+  color: #999999;
+}
+
+.footer__block{
+  background-color: #9CA5B2;
+}
+
+.footer__block p,.footer__block i,.footer__block p a,.footer__block h4{
+  color: #FFFFFF;
+}
+
+.blink::after {
+  /*https://codepen.io/alandunning/pen/RWRrEW*/
+}
+
+.footer__block .heading:after {
+  background-color: #2b90d9;
 }
