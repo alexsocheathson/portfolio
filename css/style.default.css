@@ -1961,14 +1961,14 @@ body{
   50% { opacity: 0; }
 }
 
-.typewriter{
+/* .typewriter{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   /* border-right: .15em solid orange; /* The typwriter cursor */ */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   animation:
     typing 10.0s steps(20, end)
-}
+} */
 
 /* The typing effect */
 @keyframes typing {
@@ -1980,3 +1980,11 @@ body{
   from, to { border-color: transparent }
   50% { border-color: orange; }
 } */
+
+.screenshot {
+  padding: 5px;
+  background-color: #9CA5B2;
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+}
