@@ -1,249 +1,352 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Alex Son</title>
-    <meta name="description" content="Alex Son's Website">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="all,follow">
-    <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Font Awesome and Pixeden Icon Stroke icon fonts-->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
-    <!-- Google fonts - Roboto-->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,700">
-    <!-- lightbox-->
-    <link rel="stylesheet" href="css/lightbox.min.css">
-    <!-- Main stylesheet-->
-    <link rel="stylesheet" href="css/style.default.css">
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="favicon.ico">
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120810936-1"></script>
-    <script>
+
+<head>
+  <meta charset="utf-8">
+  <title>Alex Son</title>
+  <meta name="description" content="Alex Son's Website">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- TODO: Use CDNS instead of including files in repo -->
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Font Awesome and Pixeden Icon Stroke icon fonts-->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+  <!-- Google fonts - Roboto-->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,700">
+  <!-- lightbox-->
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <!-- Main stylesheet-->
+  <link rel="stylesheet" href="css/style.default.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="favicon.ico">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120810936-1"></script>
+  <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'UA-120810936-1');
-    </script>
-  </head>
-  <body>
-    <!-- Navbar-->
-    <header class="header">
-      <div role="navigation" class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header"><a href="index.html" class="navbar-brand">Alex Son</a>
-            <div class="navbar-buttons">
-              <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle navbar-btn">Menu<i class="fa fa-align-justify"></i></button>
-            </div>
-          </div>
-          <div id="navigation" class="collapse navbar-collapse navbar-right">
-            <ul class="nav navbar-nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="index.html#experience">Experience</a></li>
-              <li><a href="index.html#aboutme">About Me</a></li>
-              <li><a href="index.html#projects">Projects</a></li>
-              <li><a href="index.html#portfolio">Portfolio</a></li>
-              <li><a href="index.html#contact">Contact</a></li>
+  </script>
+</head>
+
+<body>
+  <!-- Navbar-->
+  <header class="header">
+    <div role="navigation" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="navbar-brand">Alex Son</a>
+          <div class="navbar-buttons">
+            <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle navbar-btn">Menu
+              <i class="fa fa-align-justify"></i>
+            </button>
           </div>
         </div>
-      </div>
-    </header>
-    <div class="jumbotron main-jumbotron">
-      <div class="container">
-        <div class="content">
-          <h1 class ="animated zoomIn">hello<span class="blink">.</span></h1>
+        <div id="navigation" class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <!-- <li>
+              <a href="index.html">Home</a>
+            </li> -->
+            <li>
+              <a href="index.html#experience">Experience</a>
+            </li>
+            <li>
+              <a href="index.html#aboutme">About Me</a>
+            </li>
+            <li>
+              <a href="index.html#projects">Projects</a>
+            </li>
+            <li>
+              <a href="index.html#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="index.html#contact">Contact</a>
+            </li>
         </div>
       </div>
     </div>
-    <!-- Intro -->
-    <section class="blockone">
-      <div class="container">
+  </header>
+  <div class="jumbotron main-jumbotron">
+    <div class="container">
+      <div class="content">
+        <h1 class="animated zoomIn">hello
+          <span class="blink">.</span>
+        </h1>
+      </div>
+    </div>
+  </div>
+  <!-- Intro -->
+  <section class="blockone">
+    <div class="container">
+      <div class="row">
         <img class="img-circle img-responsive col-sm-5" src="img/alex.jpg">
-        <div class="col-sm-7">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-6">
           <h2 class="heading">I'm Alex!</h2>
-          <p class="lead">I am a senior majoring in Computer Science with a Management Studies concentration at St. Olaf College. I am currently based in Minneapolis - St.Paul area. Through my experiences I have come to be aware of my passion for the energy involved in transforming ideas into tangible products and hope to beneficially impact all of those around me.</p>
+          <p class="lead">I am a senior majoring in Computer Science with a Management Studies concentration at St. Olaf College. I am currently
+          based in Minneapolis - St.Paul area. Through my recent experiences, I have come to be aware of my passion for the
+          energy involved in creating and transforming brilliant ideas into tangible products in hopes of beneficially impacting
+          individuals in their daily lives.</p>
+          <!-- <p class="lead">I believe that in collaboration with other result-driven minds there are very few obstacles that cannot be overcome. That being said — I enjoy surrounding myself with friends from all reaches and value the different perspectives and experiences that each person brings to the table!</p> -->
         </div>
       </div>
-    </section>
-    <!-- Coursework -->
-    <section class="blocktwo">
-       <!-- <div class="container">
+    </div>
+  </section>
+  <!-- Coursework -->
+  <section class="blocktwo">
+    <!-- <div class="container">
          <h1 class="heading">Coursework and Skills</h1>
          <p class="lead"></p>
       </div> -->
-      </section>
-      <!-- Professional Experience -->
-    <section id="experience" class="blockthree">
-      <div class="container clearfix">
-        <div class="row services">
-          <div class="col-md-12">
-            <h1 class="heading">Recent Professional Experience</h1>
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="box box-services">
-                  <div class="icon"><i class="pe-7s-science"></i></div>
-                  <h4 class="heading">Web Development Intern</h4>
-                  <h5>bswing - Summer 2018</h5>
-                  <p>• Contributing to several concurrent projects, from the ground up, for clients while developing full-stack skills through the use of highly varying tech stacks including React, Angular, Node.js, .NET, HTML, CSS and Google Firebase which resulted in successful launches for Caravan Health and WinPoint</br> 
-                    • Focusing on users such as content editors and users through development centered around content management systems such as Contentful and Kentico to ensure simple upkeep for the maintainerse</p>
+  </section>
+  <!-- Professional Experience -->
+  <section id="experience" class="blockthree">
+    <div data-aos="slide-up" class="container clearfix">
+      <div class="row services">
+        <div class="col-md-12">
+          <h1 class="heading">Recent Professional Experience</h1>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="box box-services">
+                <div class="icon">
+                  <i class="pe-7s-science"></i>
                 </div>
+                <h4 class="heading">Web Development Intern</h4>
+                <h5>bswing - Summer 2018</h5>
+                <p>• Contributing to several concurrent projects, from the ground up, for clients while developing full-stack
+                  skills through the use of highly varying tech stacks including React, Angular, Node.js, .NET, HTML, CSS
+                  and Google Firebase which resulted in successful launches for Caravan Health and WinPoint</br>
+                  • Focusing on users such as content editors through development centered around content management systems such
+                  as Contentful and Kentico to ensure simple upkeep for the maintainers</p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-sm-3">
-                <div class="box box-services">
-                  <div class="icon"><i class="pe-7s-usb"></i></div>
-                  <h4 class="heading">Data Entry and Analysis</h4>
-                  <h5>St. Olaf College</h5>
-                  <p>• Identify career opportunities available presenting students and alumni of St. Olaf College in search of these opportunities with countless options</br>
-                    • Analyze pending job postings for fraud to filter potential abuse from reaching users of the job site</p>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="box box-services">
+                <div class="icon">
+                  <i class="pe-7s-usb"></i>
                 </div>
-              </div>
-              <div class="col-sm-9">
-                <div class="box box-services">
-                  <div class="icon"><i class="pe-7s-plugin"></i></div>
-                  <h4 class="heading">Software Development Intern</h4>
-                  <h5>Gravie - Summer 2017</h5>
-                  <p>• Collaborated with a senior developer, to support the engineering team of Gravie, a healthcare startup, through performing story work using an Agile methodology</br>
-                    • Implemented front-end changes, by working with UI/UX designers, to reflect updates on services being offered through Gravie using HTML, CSS, AngularJS, and Bootstrap</br>
-                    • Improved the quality of unit, integration, and functional testing through converting all existing JUnit tests to Spock and improved those that were insufficient</br>
-                    • Incorporated structural backend improvements such as updating existing pages using Groovy and Clojure, and made minor tweaks to existing information using MySQL</p>
-                </div>
+                <h4 class="heading">Data Entry and Analysis</h4>
+                <h5>St. Olaf College</h5>
+                <p>• Identify career opportunities available presenting students and alumni of St. Olaf College in search of
+                  these opportunities with countless options</br>
+                  • Analyze pending job postings for fraud to filter potential abuse from reaching users of the job site</p>
               </div>
             </div>
+            <div class="col-sm-9">
+              <div class="box box-services">
+                <div class="icon">
+                  <i class="pe-7s-plugin"></i>
+                </div>
+                <h4 class="heading">Software Development Intern</h4>
+                <h5>Gravie - Summer 2017</h5>
+                <p>• Collaborated with a senior developer, to support the engineering team of Gravie, a healthcare startup,
+                  through performing story work using an Agile methodology</br>
+                  • Implemented front-end changes, by working with UI/UX designers, to reflect updates on services being offered through Gravie
+                  using HTML, CSS, AngularJS, and Bootstrap</br>
+                  • Improved the quality of unit, integration, and functional testing through converting all existing JUnit tests to Spock
+                  and improved those that were insufficient</br>
+                  • Incorporated structural backend improvements such as updating existing pages using Groovy and Clojure, and made minor tweaks
+                  to existing information using MySQL</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- About Me -->
-    <section id="aboutme" class="blocktwo">
+    </div>
+    </div>
+  </section>
+  <!-- About Me -->
+  <section  data-aos="slide-up" data-aos-duration="1500"  id="aboutme" class="blocktwo">
+    <div data-aos="slide-up">
       <div class="container">
         <h1 class="heading">About Me</h1>
-        <p class="lead">I believe that in the presence of other result-driven minds there are very few obstacles that cannot be overcome. That being said, I enjoy surrounding myself with friends from all reaches and value the different perspectives and experiences that each person brings to the table. From playing ultimate frisbee with my teammates to walks with friends to coffee shops you'll often find me on the move!  </p>
+        <p class="lead">I believe that in collaboration with other result-driven minds there are very few obstacles that cannot be overcome.
+          That being said — I enjoy surrounding myself with friends from all reaches and value the different perspectives and
+          experiences that each person brings to the table! </p>
       </div>
-    </section>
-    <!-- Projects -->
-    <section id="projects" class="background-gray-lightest">
+    </div>
+  </section>
+  <!-- Projects -->
+  <section id="projects" class="background-gray-lightest">
+    <div data-aos="slide-up" class="container">
+      <h1 class="heading">Project Experience</h1>
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="box box-services">
+            <a class="icon" href="https://engagelives.org/">
+              <i class="pe-7s-speaker"></i>
+            </a>
+            <h4 class="heading">
+              <a href="https://engagelives.org/">Engage Lives
+                <a>
+            </h4>
+            <h5>Como Park Lutheran</h5>
+            <p>Developed a web application to act as a shared platform for several churches in the St. Paul area to encourage
+              action and engagement as a community. Implemeted using React, Gatsby a static site generator, Contentful a
+              headless CMS, and CI for automated deployment based on content changes in the CMS.</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <img class="screenshot" src="https://firebasestorage.googleapis.com/v0/b/engage-lives.appspot.com/o/assets%2FEngageLives.gif?alt=media&token=6217a36c-ec9b-45b7-9bbb-76d8a04eae11"
+            alt="demo">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="box box-services">
+            <a class="icon" href="https://alexsocheathson.github.io/enigma-web/">
+              <i class="pe-7s-key"></i>
+            </a>
+            <h4 class="heading">
+              <a href="https://alexsocheathson.github.io/enigma-web/">Enigma
+                <a>
+            </h4>
+            <h5>CSCI 253: Algorithms</h5>
+            <p>As a group, created a React Native application that allows for instant messaging using different ciphers including
+              RSA and Caesar's shift</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="box box-services">
+            <a class="icon" href="https://oleville.com/">
+              <i class="pe-7s-study"></i>
+            </a>
+            <h4 class="heading">
+              <a href="https://oleville.com/">Oleville
+                <a>
+            </h4>
+            <h5>Student Government Association: Ole Development Team</h5>
+            <p>Updated St. Olaf's wordpress SGA main website to reflect organization's rebranding.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section data-aos="slide-up" id="skills" class="blocktwo">
+    <div class="container">
+      <h1 class="heading">Skills</h1>
+      <p class="lead">• Object Oriented Programming • Python • C++ • Javascript • Node.js • React • Angular • HTML5 • CSS • Zurb Foundation
+        • Bootstrap • NoSQL • Git • Unit Testing • Scrum • Firebase </p>
+    </div>
+  </section>
+  <!-- Image Galery-->
+  <section id="portfolio" class="blockthree">
+    <div data-aos="slide-up" class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="heading">Through My Eyes</h1>
+          <!-- <p class="lead">Image Gallery</p> -->
+        </div>
+      </div>
+      <div class="row no-space">
+        <div class="col-sm-4 col-xs-4">
+          <div class="box">
+            <a href="img/portfolio-1.jpeg" title="" data-lightbox="portfolio" data-title="Portfolio image 1">
+              <img src="img/portfolio-1.jpeg" alt="" class="img-responsive">
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-4">
+          <div class="box">
+            <a href="img/portfolio-2.jpeg" title="" data-lightbox="portfolio" data-title="Portfolio image 2">
+              <img src="img/portfolio-2.jpeg" alt="" class="img-responsive">
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-4">
+          <div class="box">
+            <a href="img/portfolio-3.jpeg" title="" data-lightbox="portfolio" data-title="Portfolio image 3">
+              <img src="img/portfolio-3.jpeg" alt="" class="img-responsive">
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-4">
+          <div class="box">
+            <a href="img/portfolio-4.jpeg" title="" data-lightbox="portfolio" data-title="Portfolio image 4">
+              <img src="img/portfolio-4.jpeg" alt="" class="img-responsive">
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-4">
+          <div class="box">
+            <a href="img/portfolio-5.jpeg" title="" data-lightbox="portfolio" data-title="Portfolio image 5">
+              <img src="img/portfolio-5.jpeg" alt="" class="img-responsive">
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-4">
+          <div class="box">
+            <a href="img/portfolio-6.jpeg" title="" data-lightbox="portfolio" data-title="Portfolio image 6">
+              <img src="img/portfolio-6.jpeg" alt="" class="img-responsive">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <!-- TODO: Update social media icons -->
+  <footer id="contact" class="footer">
+    <div class="footer__block">
       <div class="container">
-        <h1 class="heading">Project Experience</h1>
-        <div class = "row">
-            <div class="col-sm-12 col-md-6">
-                <div class="box box-services">
-                  <a class="icon" href= "https://engagelives.org/"><i class="pe-7s-speaker"></i></a>
-                  <h4 class="heading"><a href= "https://engagelives.org/">Engage Lives<a></h4>
-                  <h5>Como Park Lutheran</h5>
-                  <p>Developed a web application to act as a shared platform for several churches in the St. Paul area to encourage action and engagement as a community. Implemeted using React, Gatsby a static site generator, Contentful a headless CMS, and CI for automated deployment based on content changes in the CMS.</p>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-6">
-                  <img class="screenshot" src="https://firebasestorage.googleapis.com/v0/b/engage-lives.appspot.com/o/assets%2FEngageLives.gif?alt=media&token=6217a36c-ec9b-45b7-9bbb-76d8a04eae11" alt="demo">
-                </div>
-            </div>
         <div class="row">
-          <div class="col-sm-6">
-            <div class="box box-services">
-              <a class="icon" href = "https://alexsocheathson.github.io/enigma-web/"><i class="pe-7s-key"></i></a>
-              <h4 class="heading"><a href = "https://alexsocheathson.github.io/enigma-web/">Enigma<a></h4>
-              <h5>CSCI 253: Algorithms</h5>
-              <p>As a group, created a React Native application that allows for instant messaging using different ciphers including RSA and Caesar's shift</p>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="box box-services">
-              <a class="icon" href = "https://oleville.com/"><i class="pe-7s-study"></i></a>
-              <h4 class="heading"><a href = "https://oleville.com/">Oleville<a></h4>
-              <h5>Student Government Association: Ole Development Team</h5>
-              <p>Updated St. Olaf's SGA main website to reflect organization's rebranding.</p>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-    </section>
-    <section id="skills" class="blocktwo">
-        <div class="container">
-          <h1 class="heading">Skills</h1>
-          <p class="lead">• Object Oriented Programming • Python • C++ • Javascript • Node.js • React • Angular • HTML5 • CSS • Zurb Foundation • Bootstrap • Git • Unit Testing • Scrum </p>
-        </div>
-      </section>
-    <!-- Image Galery-->
-    <section id="portfolio" class="blockthree">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h1 class="heading">Through My Eyes</h1>
-            <!-- <p class="lead">Image Gallery</p> -->
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row no-space">
-          <div class="col-sm-4 col-xs-4">
-            <div class="box"><a href="img/portfolio-1.jpeg" title="" data-lightbox="portfolio" data-title="Portfolio image 1"><img src="img/portfolio-1.jpeg" alt="" class="img-responsive"></a></div>
-          </div>
-          <div class="col-sm-4 col-xs-4">
-            <div class="box"><a href="img/portfolio-2.jpeg" title="" data-lightbox="portfolio" data-title="Portfolio image 2"><img src="img/portfolio-2.jpeg" alt="" class="img-responsive"></a></div>
-          </div>
-          <div class="col-sm-4 col-xs-4">
-            <div class="box"><a href="img/portfolio-3.jpeg" title="" data-lightbox="portfolio" data-title="Portfolio image 3"><img src="img/portfolio-3.jpeg" alt="" class="img-responsive"></a></div>
-          </div>
-          <div class="col-sm-4 col-xs-4">
-            <div class="box"><a href="img/portfolio-4.jpeg" title="" data-lightbox="portfolio" data-title="Portfolio image 4"><img src="img/portfolio-4.jpeg" alt="" class="img-responsive"></a></div>
-          </div>
-          <div class="col-sm-4 col-xs-4">
-            <div class="box"><a href="img/portfolio-5.jpeg" title="" data-lightbox="portfolio" data-title="Portfolio image 5"><img src="img/portfolio-5.jpeg" alt="" class="img-responsive"></a></div>
-          </div>
-          <div class="col-sm-4 col-xs-4">
-            <div class="box"><a href="img/portfolio-6.jpeg" title="" data-lightbox="portfolio" data-title="Portfolio image 6"><img src="img/portfolio-6.jpeg" alt="" class="img-responsive"></a></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Footer -->
-    <!-- TODO: Update social media icons -->
-    <footer id="contact" class="footer">
-      <div class="footer__block">
-        <div class="container">
-          <div class="row">
-            <!-- <div class="col-sm-8">
+          <!-- <div class="col-sm-8">
               <h4 class="heading">Find Me On Social Media</h4>
               <p class="social social--big"><a href="https://www.facebook.com/profile.php?id=100000509769163" data-animate-hover="pulse" class="external facebook"><i class="fa fa-facebook"></i></a></p>
               <a href="#" data-animate-hover="pulse" class="external gplus"><i class="fa fa-google-plus"></i></a><a href="#" data-animate-hover="pulse" class="external twitter"><i class="fa fa-twitter"></i></a><a href="#" data-animate-hover="pulse" class="email"><i class="fa fa-envelope"></i></a>
             </div> -->
-              <h4 class="heading">Let's Connect</h4>
-              <!-- <p class="social social--big"><a href="https://www.facebook.com/profile.php?id=100000509769163" data-animate-hover="pulse" class="external facebook"><i class="fa fa-facebook"></i></a></p> -->
-            <p class="col-sm-3">(651) 855-8952</p>
-            <!-- <p class = "social" <a class = "social" href="mailto:alexson28@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></p> -->
-            <p class="col-sm-3"><a href="mailto:alexson28@gmail.com">alexson28@gmail.com</a></p>
-            <p class="col-sm-3"><a href="https://github.com/alexsocheathson">https://github.com/alexsocheathson</a></p>
-            <p class="col-sm-3"><a href="https://www.linkedin.com/in/alex-son">https://www.linkedin.com/in/alex-son/</a></p>
+          <h4 class="heading col-sm-12">Let's Connect</h4>
+          <!-- <p class="social social--big"><a href="https://www.facebook.com/profile.php?id=100000509769163" data-animate-hover="pulse" class="external facebook"><i class="fa fa-facebook"></i></a></p> -->
+          <p class="col-sm-3">(651) 855-8952</p>
+          <!-- <p class = "social" <a class = "social" href="mailto:alexson28@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></p> -->
+          <p class="col-sm-3">
+            <a href="mailto:alexson28@gmail.com">alexson28@gmail.com</a>
+          </p>
+          <p class="col-sm-3">
+            <a href="https://github.com/alexsocheathson">https://github.com/alexsocheathson</a>
+          </p>
+          <p class="col-sm-3">
+            <a href="https://www.linkedin.com/in/alex-son">https://www.linkedin.com/in/alex-son/</a>
+          </p>
         </div>
       </div>
     </div>
-      <div class="footer__copyright">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <!-- <p>Alex Son</p> -->
-            </div>
-            <div class="col-md-6">
-            </div>
+    <div class="footer__copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- <p>Alex Son</p> -->
+          </div>
+          <div class="col-md-6">
           </div>
         </div>
       </div>
-    </footer>
-    <!-- Javascript files-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0.0/dist/smooth-scroll.polyfills.min.js"></script>
-    <script>
-	     var scroll = new SmoothScroll('a[href*="#"]');
+    </div>
+  </footer>
+  <!-- Javascript files-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/lightbox.min.js"></script>
+  <script>
+      AOS.init({
+        duration: 2300,
+        once: true,
+      });
+      var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 1500,
+      });
     </script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/lightbox.min.js"></script>
-  </body>
+</body>
+
 </html>
